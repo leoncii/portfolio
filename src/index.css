@@ -1,0 +1,37 @@
+
+body {
+  margin: 0;
+  font-family: "Alliance No.1",-apple-system,"Segoe UI",Helvetica; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "Alliance No.1",-apple-system,"Segoe UI",Helvetica;
+  src: url("/public/Alliance-No-1-ExtraBold.woff2") format('woff');
+  src: url("/public/Alliance-No-1-Regular.woff2") format('woff');
+  font-weight: bold;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:26%;
+  left: 200px;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
