@@ -49,5 +49,5 @@ export function Fancy () {
     }, 400)
   }
 
-  return <div class='console-container'><span id='text' /><div class='console-underscore' id='console'>&#95;</div></div>
+  return <div className='console-container'><span id='text' /><div className='console-underscore' id='console'>&#95;</div></div>
 }

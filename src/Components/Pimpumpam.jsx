@@ -1,17 +1,16 @@
+import { LayoutProject } from './LayoutProject'
 import { Description } from './Mini/Description'
 import { Image } from './Mini/Image'
 import { Title } from './Mini/Title'
 
 export function Pimpumpam () {
   return (
-    <div className='flex h-screen w-full py-14'>
-      <div className='overflow-auto'>
-        <Image src='pimpumpam.webp' alt='Portada de simple-pimpumpam.com' />
-      </div>
-      <div className='w-full text-center self-center ml-10'>
+    <LayoutProject>
+      <Image src='pimpumpam.webp' alt='Portada de simple-pimpumpam.com' />
+      <div className='w-full text-center self-center'>
         <Title>Simple Pimpumpam</Title>
-        <Description github='hello github' url='google.com'>Un blog para webear</Description>
+        <Description github='https://github.com/leoncii/simple-pimpumpam.com' url='https://blog-leoncii.vercel.app/'>Un blog sobre JavaScript, NFT y Blockchain</Description>
       </div>
-    </div>
+    </LayoutProject>
   )
 }

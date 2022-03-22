@@ -3,11 +3,12 @@ import { Pimpumpam } from './Pimpumpam'
 import { Nelson } from './Nelson'
 import { Crypto } from './Crypto'
 import { Lab } from './Lab'
-
+import { Title5 } from './Mini/Title5'
+// bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100
 export function Proyects () {
   return (
     <>
-      <h1 className='text-5xl font-black py-20 mx-[auto] text-center'>Trabajos</h1>
+      <Title5 />
       <Pimpumpam />
       <Andres />
       <Nelson />

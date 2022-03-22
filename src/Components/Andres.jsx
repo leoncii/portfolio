@@ -1,17 +1,16 @@
+import { LayoutProject } from './LayoutProject'
 import { Description } from './Mini/Description'
 import { Image } from './Mini/Image'
 import { Title } from './Mini/Title'
 
 export function Andres () {
   return (
-    <div className='flex h-screen w-full py-14'>
-      <div className='overflow-auto'>
-        <Image src='andres.webp' alt='Portada de andrestorrico.com' />
-      </div>
+    <LayoutProject direction>
+      <Image src='andres.webp' alt='Portada de andrestorrico.com' />
       <div className='w-full text-center self-center'>
         <Title>Andres Gimnasio</Title>
-        <Description github='hello github' url='google.com'>La description del andres</Description>
+        <Description github='https://github.com/leoncii/andres' url='https://blo-post.vercel.app'>Sitio web informativo para un gimnasio.</Description>
       </div>
-    </div>
+    </LayoutProject>
   )
 }

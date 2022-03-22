@@ -8,7 +8,6 @@ import { Fancy } from './Fancy'
 function App () {
   return (
     <>
-      <Fancy />
       <Hero />
       <Layout>
         <Proyects />

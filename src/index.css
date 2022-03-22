@@ -12,10 +12,10 @@ body {
   font-weight: bold;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Khula:700);
 .hidden {
   opacity:0;
 }
+
 .console-container {
   font-family:Khula;
   font-size:4em;
@@ -29,6 +29,7 @@ body {
   left: 200px;
   margin:auto;
 }
+
 .console-underscore {
    display:inline-block;
   position:relative;
