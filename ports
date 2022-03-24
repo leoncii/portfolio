@@ -1,0 +1,2 @@
+# Nmap 7.92 scan initiated Tue Mar 22 16:57:38 2022 as: nmap -p- --open --min-rate 5000 -sS -n -Pn -oG ports https://nelson-peluqueria.com/
+# Nmap done at Tue Mar 22 16:57:38 2022 -- 0 IP addresses (0 hosts up) scanned in 0.04 seconds
