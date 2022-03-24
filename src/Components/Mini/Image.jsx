@@ -5,13 +5,13 @@ export function Image ({ src, alt, special = null }) {
         special === null
           ? <picture>
             <img className='object-contain h-fit' src={src} alt={alt} />
-          </picture>
-          : <picture className='flex overflow-auto'>
+            </picture>
+          : <picture className='flex rounded-lg overflow-x-auto'>
             <img className='object-contain pr-12 h-fit' src='1.webp' alt={alt} />
             <img className='object-contain pr-12 h-fit' src='2.webp' alt={alt} />
             <img className='object-contain pr-12 h-fit' src='3.webp' alt={alt} />
             <img className='object-contain h-fit' src='4.webp' alt={alt} />
-            </picture>
+          </picture>
   }
     </div>
   )
