@@ -9,7 +9,7 @@ export function Pimpumpam () {
       <Image src='pimpumpam.webp' alt='Portada de simple-pimpumpam.com' />
       <div className='w-full text-center self-center'>
         <Title>Simple Pimpumpam</Title>
-        <Description github='https://github.com/leoncii/simple-pimpumpam.com' url='https://blog-leoncii.vercel.app/'>Un blog sobre JavaScript, NFT y Blockchain</Description>
+        <Description github='https://github.com/leoncii/simple-pimpumpam.com' url='https://blog-leoncii.vercel.app/'>Un blog sobre el ecosistema JavaScript, NFT y Blockchain.</Description>
       </div>
     </LayoutProject>
   )

@@ -8,7 +8,7 @@ import { Title5 } from './Mini/Title5'
 export function Proyects () {
   return (
     <>
-      <Title5 />
+      <Title5>Trabajos</Title5>
       <Pimpumpam />
       <Andres />
       <Nelson />

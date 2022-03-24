@@ -9,7 +9,7 @@ export function Lab () {
       <Image src='1.webp' alt='Portada de https://lab-blond.vercel.app' special />
       <div className='w-full text-center self-center max-w-xl'>
         <Title>U Lab</Title>
-        <Description github='https://github.com/leoncii/lab' url='https://lab-blond.vercel.app'>Una aplicación para laboratorios (químicos) y registrar usuarios basado en roles para gestionar análisis a los clientes como hemogramas, pruebas de embarazo, PCR COVID 19 y mas de 300 análisis descargable en PDF y un sistema de arqueo de caja.</Description>
+        <Description github='https://github.com/leoncii/lab' url='https://lab-blond.vercel.app'>Una aplicación para laboratorios (químicos) y registrar usuarios basado en roles para gestionar los análisis de los clientes como hemogramas, pruebas de embarazo, PCR COVID 19 y mas de 300 análisis descargables en PDF y un sistema de arqueo de caja.</Description>
       </div>
     </LayoutProject>
   )
