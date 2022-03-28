@@ -1,14 +1,15 @@
 import { Title5 } from './Mini/Title5'
+import { Description } from './Mini/Description'
 
 export function About () {
   return (
     <>
-      <Title5>
+      <Title5 text='h-[88px]'>
         Acerca de
       </Title5>
-      <p className='text-xl mx-[auto] text-center pb-20'>
-        Soy un desarrollador de aplicaciones web y de escritorio confiable, ahora estoy de freelancer trabajando con Next.js. En los ratos libres me gusta buscar la bandera en Hack The Box y así mejorar la seguridad de las aplicaciónes de mis clientes.
-      </p>
+      <Description only>
+        Soy un desarrollador de aplicaciones web y escritorio de confianza, estoy de freelancer trabajando con Next.js, como hobby me gusta 'buscar la bandera' en Hack The Box.
+      </Description>
     </>
   )
 }

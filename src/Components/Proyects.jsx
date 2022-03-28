@@ -9,11 +9,11 @@ export function Proyects () {
   return (
     <>
       <Title5>Trabajos</Title5>
-      <Pimpumpam />
+      <Lab />
       <Andres />
       <Nelson />
       <Crypto />
-      <Lab />
+      <Pimpumpam />
     </>
   )
 }
