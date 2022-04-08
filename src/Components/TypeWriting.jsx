@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react'
 import Typewriter from 'typewriter-effect/dist/core'
-import { Heart } from './Icons/heart'
-import { Fire } from './Icons/Fire'
-import { date, dateTime } from '../constants/time'
-import { newLineCmd } from '../constants/image'
+import { Heart } from '../../Icons/heart'
+import { Fire } from '../../Icons/Fire'
+import { date, dateTime } from '../../constants/time'
+import { newLineCmd } from '../../constants/image'
 
 export const TypeWriting = () => {
   const node = useRef()
