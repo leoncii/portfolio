@@ -11,9 +11,7 @@ body {
   top: 100px;
   left: 100px;
   border-radius: 50%;
-  box-shadow: 0 0 200px 50px rgba(243, 34, 52, 0.19),
-              0 0 275px 75px rgb(192, 78, 245, .19),
-              0 0 350px 100px rgba(38, 243, 120, 0.191);
+  box-shadow: 0 0 400px 50px rgb(75, 0, 130);
 }
 
 #circle_ {
@@ -21,9 +19,7 @@ body {
   bottom: 100px;
   right: 7vw;
   border-radius: 50%;
-  box-shadow: 0 0 200px 50px rgba(243, 226, 34, 0.19),
-              0 0 275px 75px rgba(78, 245, 206, 0.19),
-              0 0 350px 100px rgba(243, 38, 178, 0.191);
+  box-shadow: 0 0 400px 50px yellow,
 }
 
 @font-face {
