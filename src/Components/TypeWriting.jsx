@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-/* import Typewriter from '../../node_modules/typewriter-effect/dist/core' */
-import Typewriter from 'typewriter-effect/dist/core'
+import Typewriter from '../../node_modules/typewriter-effect/dist/core'
+/* import Typewriter from 'typewriter-effect/dist/core' */
 import { Heart } from '../../Icons/heart'
 import { Fire } from '../../Icons/Fire'
 import { date, dateTime } from '../../constants/time'

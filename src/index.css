@@ -82,7 +82,8 @@ body {
 #photo {
   box-shadow:0px 0px 0 10px rgba(16,16,16,1),
              0px 0px 0 15px rgb(71, 33, 124);
-  width: 384px;
+  width: 350px;
+  transform: scale(.7);
 }
 
 #circle {
@@ -90,7 +91,7 @@ body {
   top: 100px;
   left: 100px;
   border-radius: 50%;
-  box-shadow: 0 0 400px 50px rgb(75, 0, 130);
+  box-shadow: 0 0 400px 50px rgba(255, 255, 255, .15);
 }
 
 #circle_ {
@@ -98,7 +99,7 @@ body {
   bottom: 100px;
   right: 100px;
   border-radius: 50%;
-  box-shadow: 0 0 400px 50px rgba(158, 158,1, .35);
+  box-shadow: 0 0 400px 50px rgb(75, 0, 130);
 }
 
 #leonardo {
@@ -181,10 +182,11 @@ body {
 #namep {
   text-align: center;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 468px) {
   #photo {
     box-shadow:0px 0px 0 20px rgba(16,16,16,1),
                0px 0px 0 25px rgb(71, 33, 124);
+    transform: scale(1);
   }
 }
 
@@ -197,6 +199,9 @@ body {
   }
   #buttons {
     display: none;
+  }
+  #name {
+    justify-content: flex-start;
   }
   #namep {
     text-align: left;
