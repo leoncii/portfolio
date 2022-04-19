@@ -5,6 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 #buttons1 {
   display: none;
   width: 100%;
@@ -200,6 +201,11 @@ body {
   #buttons {
     display: none;
   }
+
+  #button {
+    width: 156px;
+  }
+
   #name {
     justify-content: flex-start;
   }
