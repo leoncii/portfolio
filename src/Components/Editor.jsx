@@ -30,7 +30,7 @@ export const Editor = () => {
     .start()
 
   return (
-    <div className='mt-8 max-w-[540px] h-96 max-h-[608px] mx-4 shadow-sm'>
+    <div className='mt-8 max-w-[540px] h-96 max-h-[608px] mx-4 shadow-sm md:mx-[auto]'>
       <div className='max-w-[486px] h-[300px] border-b border-x border-[#eaeaea] '>
         <div className='flex h-[46px] border-b border-[#eaeaea] border-solid'>
           <div className='flex h-[46px] w-[52px] justify-between items-center mx-[16px]'>
