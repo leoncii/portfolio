@@ -6,6 +6,7 @@ export const Svg = () => (
       display: 'inherit',
       enableBackground: 'new 0 0 45.057 45.057'
     }}
+    className='mx-[auto] my-0'
     id='cv'
     viewBox='0 0 50 50'
     xmlSpace='preserve'
