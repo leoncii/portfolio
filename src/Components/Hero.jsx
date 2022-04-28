@@ -11,14 +11,14 @@ export function Hero () {
           </h1>
           <p id='namep' className='text-pink-100 text-lg sm:text-[24px] leading-8 lg:pb-12'>Desarrollador de Software</p>
           <div id='buttons1'>
-            <button id='button' title='Descargar CV' download><Svg /></button>
+            <a id='button' href='/cv.pdf' title='Descargar CV' download><Svg /></a>
           </div>
         </header>
         <picture className='self-center'>
           <img id='photo' className='mb-8 object-cover mx-[auto] rotate-[25deg] rounded-[50%]' src='photo1.webp' alt='Retrato de Leonardo' />
         </picture>
         <div id='buttons' className='mx-[auto] w-full flex flex-col justify-between text-center'>
-          <button id='button' title='Descargar CV' className='w-full md:mr-4 mb-4'><Svg /></button>
+          <a id='button' href='/cv.pdf' title='Descargar CV' className='w-full md:mr-4 mb-4'><Svg /></a>
         </div>
       </div>
       <div id='circle' />
