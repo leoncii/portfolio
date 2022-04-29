@@ -15,7 +15,7 @@ export function Hero () {
           </div>
         </header>
         <picture className='self-center'>
-          <img id='photo' className='mb-8 object-cover mx-[auto] rotate-[25deg] rounded-[50%]' src='photo1.webp' alt='Retrato de Leonardo' />
+          <img id='photo' loading='eager' className='mb-8 object-cover mx-[auto] rotate-[25deg] rounded-[50%]' src='photo1.webp' alt='Retrato de Leonardo' />
         </picture>
         <div id='buttons' className='mx-[auto] w-full flex flex-col justify-between text-center'>
           <a id='button' href='/cv.pdf' title='Descargar CV' className='w-full md:mr-4 mb-4'><Svg /></a>
