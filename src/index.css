@@ -175,7 +175,7 @@ body {
 }
 #nmap {
   max-width: 720px;
-  height: auto;
+  height: 450px;
   border-radius: 8px;
   margin-top: 5rem;
   margin: 0 auto;
@@ -209,7 +209,9 @@ body {
   #buttons {
     display: none;
   }
-
+  #nmap {
+    height: 330px;
+  }
   #button {
     width: 156px;
   }

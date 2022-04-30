@@ -6,6 +6,7 @@ import { Layout } from './Components/Layout'
 import { Proyects } from './Components/Proyects'
 import { TypeWriting } from './Components/TypeWriting'
 import { Editor } from './Components/Editor'
+import { Certificates } from './Components/Certificates'
 
 function App () {
   return (
@@ -16,6 +17,7 @@ function App () {
         <Proyects />
         <About />
         <TypeWriting />
+        <Certificates />
       </Layout>
       <Footer />
     </>
