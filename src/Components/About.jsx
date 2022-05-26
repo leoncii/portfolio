@@ -8,7 +8,7 @@ export function About () {
         Sobre mí
       </Title5>
       <Description only>
-        Leonardo es un Desarrollador de Aplicaciones Web y entusiasta Linux. Me gusta aprender tecnologías nuevas e investigar por mi cuenta las cosas, soy una persona honesta, confiable que gusta hacer deporte ya que la mente y el cuerpo van juntos.
+        Soy Leonardo, Desarrollador de Aplicaciones Web y entusiasta Linux. Me gusta aprender tecnologías nuevas e investigar por mi cuenta las cosas, soy una persona honesta, confiable y me gusta hacer deporte.
       </Description>
     </>
   )
